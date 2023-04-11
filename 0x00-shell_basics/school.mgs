@@ -1,0 +1,46 @@
+                                                                                                                                   
+
+drwxr-xr-x 2 root root   4096 Nov 11 01:15 .                                                                                                                
+
+drwxr-xr-x 7 root root    160 Sep  5 22:17 ..                                                                                                               
+
+-rwxr--r-- 1 root root     16 Sep  1 05:02 0-current_working_directory                                                                                      
+
+-rwxr--r-- 1 root root     35 Nov 11 00:53 100-lets_move                                                                                                    
+
+-rwxr--r-- 1 root root     18 Nov 11 00:53 101-clean_emacs                                                                                                  
+
+-rwxr--r-- 1 root root     39 Nov 11 00:53 102-tree                                                                                                         
+
+-rwxr--r-- 1 root root     20 Nov 11 00:53 103-commas                                                                                                       
+
+-rwxr--r-- 1 root root     17 Sep  2 14:13 10-back                                                                                                          
+
+-rwxr--r-- 1 root root     30 Sep  2 14:25 11-lists                                                                                                         
+
+-rwxr--r-- 1 root root     31 Sep  2 14:28 12-file_type                                                                                                     
+
+-rwxr--r-- 1 root root     33 Sep  2 14:46 13-symbolic_link                                                                                                 
+
+-rwxr--r-- 1 root root     25 Sep  2 15:24 14-copy_html                                                                                                     
+
+-rwxr--r-- 1 root root     15 Sep  1 05:08 1-listit                                                                                                         
+
+-rwxr--r-- 1 root root     15 Sep  1 06:14 2-bring_me_home                                                                                                  
+
+-rwxr--r-- 1 root root     18 Sep  2 13:40 3-listfiles                                                                                                      
+
+-rwxr--r-- 1 root root     19 Sep  2 13:42 4-listmorefiles                                                                                                  
+
+-rwxr--r-- 1 root root     19 Sep  2 13:44 5-listfilesdigitonly                                                                                             
+
+-rwxr--r-- 1 root root     42 Sep  2 13:58 6-firstdirectory                                                                                                 
+
+-rwxr--r-- 1 root root     50 Sep  2 14:02 7-movethatfile                                                                                                   
+
+-rwxr--r-- 1 root root     45 Sep  2 14:05 8-firstdelete                                                                                                    
+
+-rwxr--r-- 1 root root     43 Sep  2 14:09 9-firstdirdeletion                                                                                               
+
+-rwxr-xr-x 1 root root 142144 Nov 11 01:15 ls                                                                                                               
+
