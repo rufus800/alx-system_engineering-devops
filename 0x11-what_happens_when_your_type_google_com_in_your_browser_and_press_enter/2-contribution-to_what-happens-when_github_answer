@@ -1,0 +1,109 @@
+In this article, I want my readers to get a picture of a very basic concept of the web world front the point of typing google.com and pressing enter.
+
+As the topic is self-explanatory - when we hit type any URL and press enter then what happens? - let’s start!
+
+simply put google.com is a URL
+
+URL – Uniform Resource Locator
+This is the address of the place where we want to go to interact with or find information.
+
+Let's look at it in a very relatable way. If you want to visit your friend’s house for some work or to get information, you need their address. The same thing goes for the web world: we have to give the address of the website which we want to access. The website is like the house and the URL is the address.
+
+For instance, when you type google.com and press enter
+
+google.com changes to
+
+https://www.google.com/
+
+Notice the HTTPS that gets added to what you typed. Https is a hypertext transfer protocol. This is basically a set of rules for communication between devices on the web. Just like a person could understand the English language as well as Spanish, he could easily switch between syntaxes while he’s communicating with two different persons in English and Spanish. The same way a browser can talk via HTTP, HTTPS, FTP, and the like. 'HTTPS' is basically a secure version, i.e. information is exchanged in a secure way.
+
+The second part www.example.com is a domain name. You can relate it to your friend’s house. It is the address of a website. We use it to reach the server (another computer) that is responsible for serving the information for that website. Wait! You might think, a few seconds before I mentioned the URL is the address whereas I also mentioned the domain name is also addressed. You may have been confused. Don’t be confused!
+
+Difference between URL and Domain Name
+The major difference between both is that the URL is a complete address. URL tells about the method through which information should exchange, and the path after reaching that website. Whereas the domain name is part of a URL.
+
+Let’s take our previous example to better understand. You can say that your friend’s house address is a domain name, whereas the URL not only tells the friend’s house address (domain name) but also how you are going to communicate like talking in a separate room (secure) or in front of everyone (info can get leak). It also tells the path, i.e. at which part of the house you will go after entering the house. Hence, the domain name is part of the URL. A domain name with more information is a URL.
+
+IP addresses have a numeric format like this: 216.146.46.10. But it's easier for people to remember domain names such as vox.com. The domain name system (DNS) acts like a directory system, telling computers wanting to view a website like www.vox.com what IP address to access.
+
+When we hit any URL, then we are actually hitting the IP address of the computer which is responsible for serving the website content (hosting).
+
+You can relate it to your contact list. You can’t remember every person’s number, but you can remember their name. The same concept applies here as well. You can’t remember those scary IP addresses, but you can easily remember domain names.
+
+This huge amount of data is maintained in a database where the domain name with its IP address is stored. A system that stores domain names with their corresponding IP address are known as DNS (Domain name system) (I believe you must have heard about it).
+
+DNS lookup to find the IP address
+After hitting the URL, the first thing that needs to happen is to resolve the IP address associated with the domain name. DNS helps in resolving this. DNS is like a phone book and helps us to provide the IP address that is associated with the domain name just like our phone book gives a mobile number that is associated with the person’s name.
+
+
+The server processes request and send a response to the client
+The server takes the request and based on the info in the request line, headers, and body then decides how to process the request. It fetches the requested content from the available database.
+
+The response contains the following:
+
+a status line, telling the client the status of the request
+
+response headers, telling the browser how to handle the response
+
+the requested resource at that path, either content like HTML, CSS, Javascript, image files, or data
+
+Resources can be static files, either text (HTML files) or non-text data (images). Browsers aren't always requesting static files, though. Often, these are dynamic resources generated at the time of the request and there is no file associated with the resource. The browser renders the content afterward.
+
+How the browser renders content
+Once the browser has received the response from the server, it inspects the response headers for information on how to render the resource. The Content-Type header above tells the browser it received an HTML resource in the response body.
+
+Sometimes, there is a lot of traffic of client requests to servers (you are typing google.com, and other people are typing so much more). To improve the efficiency of servers and reduce loading time, a load balancer is used.
+
+Introduction to load balancer
+A load balancer intelligently distributes traffic from clients across multiple servers without the clients having to understand how many servers are in use or how they are configured. Because the load balancer sits between the clients and the servers it can enhance the user experience by providing additional security, performance, and resilience and simplifying scaling your website.
+
+Load balancers perform many functions in addition to just splitting traffic across servers, among them are: HTTP reverse proxy, Traffic and routing optimization algorithms, Image caching (reducing web server load), Content caching
+
+Your request to view google.com will be equally balanced with all other available requests from other clients. The load balancer will allocate a server for you.
+
+Now that you know how requests are balanced using a load balancer, let's see something else. How can you prevent unauthorized access to your website?
+
+Introduction to firewall
+A firewall is a security device — computer hardware or software — that can help protect your network by filtering traffic and blocking outsiders from gaining unauthorized access to the private data on your computer.
+
+Not only does a firewall block unwanted traffic, but it can also help block malicious software from infecting your computer.
+
+Firewalls can provide different levels of protection. The key is determining how much protection you need.
+
+The image below is a summary of the whole process.
+
+
+Let's examine some basic terms that we will be referring to in this article.
+
+Internet - the Internet is a vast network that connects computers all over the world.
+
+Internet Service Provider (ISP) - an organization that provides services for accessing, using, or participating in the Internet.
+
+Client - the user-agent; any tool that acts on behalf of the user. This role is primarily performed by the Web browser, but it may also be performed by programs used by engineers and Web developers to debug their applications.
+
+Client requests - queries sent to the server by the client.
+
+Resolver - a set of dynamic library routines used by applications that need to know machine names.
+
+Server - a piece of computer hardware or software that provides functionality for other programs or devices, called "clients".
+
+Web server - is computer software with underlying hardware that connects to the Internet and supports physical data interchange with other devices connected to the web.
+
+Domain Name System (DNS) - a naming system used to identify computers, services, and other resources reachable through the Internet or other Internet Protocol networks.it translates URL e.g google.com to relevant IP address e.g 8.8.8.8 to enable the browser to serve the requested webpage
+
+Internet Protocol address (IP) - a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification and location addressing.
+
+Transmission Control Protocol (TCP) - a connection-oriented protocol that means it establishes the connection before the communication that occurs between the computing devices in a network. This protocol is used with an IP protocol, so together, they are referred to as a TCP/IP.
+
+HyperText Transfer Protocol (HTTP) - a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser.
+
+Load balancer - a device/program that acts as a reverse proxy and distributes network or application traffic across many servers. It helps routes incoming traffic efficiently to optimize site performance, reducing downtime, maximizing speeds, and provide flexibility to add and subtract servers to cater to requests from clients
+
+Application server - a type of server designed to install, operate, and host-associated services and applications for IT services, end-users, and organizations.
+
+Database - is an organized collection of structured information, or data, typically stored electronically in a computer system.
+
+Firewall - a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+
+Conclusion
+With the little article, you have understood how the pieces communicate together to receive clients’ requests, establish connections between servers and clients, balance requests between servers, how resources are served to clients by servers, and finally, you were introduced to the concept of a firewall.
